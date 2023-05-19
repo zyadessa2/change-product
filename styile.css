@@ -39,11 +39,16 @@ ul li a{
 .content .text{
     width: 40%;
     color: #fff;
-
+}
+@media (max-width:767px) {
+    .content .text{
+        width: 40%;
+    } 
 }
 .content .text h2{
     font-size: 40px;
     text-transform: uppercase;
+    line-height: 1.2;
 }
 .content .text p {
     font-size: 18px;
@@ -57,7 +62,12 @@ ul li a{
     border-radius: 20px;
 }
 .content .image{
-    width: 30%;
+    width: 40%;
+}
+@media (max-width:767px) {
+    .content .image{
+        width: 44%;
+    } 
 }
 .content .image img{
     width: 180px;
@@ -67,6 +77,11 @@ position: absolute;
 bottom: 0;
 left: 50%;
 transform: translateX(-50%);
+}
+@media (max-width:767px) {
+    .icons{
+        width: 70%;
+    }
 }
 .icons img{
     width: 40px;
